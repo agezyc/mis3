@@ -1,0 +1,70 @@
+
+	html{
+		
+		font-size:50px;
+		
+	}
+
+
+
+
+	body{
+	
+		
+		background-image: url(../img/t3.png);
+		-moz-background-size:100% 100%;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+		 top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+	}
+	.leftarrow{
+		
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+	}
+	.leftsign{
+		
+		/*background: url(../img/task3_07small.png) no-repeat;*/
+		padding:0;
+		font-size:0;
+		margin-top:0.6rem;
+		margin-left:1.95rem;
+
+	}
+	.top{
+		position: relative;
+	}
+	.wrap{
+		
+		height:100%;
+		width:100%;
+	
+	}
+	.s2{
+
+		float:left;	
+		margin-left:0.6rem;
+		margin-top:10.15625%;
+	}
+
+	.s3{
+		float:left;
+		margin-left:2.15rem;
+		margin-top:10.15625%;
+	}
+	.foot{
+		clear:both;
+	}
+
+	.content{
+		color:white;
+		font-size:0.16rem;
+		font:"微软雅黑";
+
+		margin-top:1.5rem;
+
+	}

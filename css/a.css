@@ -1,0 +1,72 @@
+
+
+
+
+	body{
+	
+		
+		background-image: url(../img/t3.png);
+		-moz-background-size:100% 100%;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+		top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+	}
+	.leftarrow{
+		
+		font-size:0;
+		top:0.10rem;
+		left:0.175rem;
+	}
+	.leftsign{
+		
+		top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+		 position: absolute;
+		 margin-top:60px;	
+		/*background: url(../img/task3_07small.png) no-repeat;*/
+		
+
+	}
+	
+	.wrap{
+		position: relative;
+		height:100%;
+		width:100%;
+	
+	}
+	.s2{
+		display: inline-block;
+		margin-top:330px;
+		float:left;
+		padding-left: 40px;	
+	
+	}
+
+	.s3{
+		display: inline-block;
+		margin-top:330px;
+		float:right;
+		padding-right: 50px;
+	}
+	
+	.bottom{
+		display: inline-block;
+		position: absolute;
+		
+	}
+	.content{
+		margin-left: 40px;
+		margin-right:40px;
+		 position: absolute;
+		top:150px;
+		color:white;
+		font-size:12px;
+		line-height: 1.5;
+		font:"微软雅黑" bold 1px;
+
+			}
+	
