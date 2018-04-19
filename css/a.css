@@ -1,5 +1,28 @@
+@media screen and (max-width: 320px) {
+    body {
+        font-size:13px;
+    }
+    img{
+    	height: 4rem;
+    }
+  
+}
+
+@media screen and (min-width: 321px) and (max-width:768px) {
+    body {
+        font-size:13px;
+    }
+    img{
+    	height: 4rem;
+    }
+}
 
 
+
+
+	html{
+		font-size:16px;
+	}
 
 
 	body{
@@ -16,57 +39,69 @@
 	}
 	.leftarrow{
 		
-		font-size:0;
 		top:0.10rem;
 		left:0.175rem;
 	}
 	.leftsign{
 		
-		top: 50%;
-    	left: 50%;
-    	transform: translate(-50%, -50%);
-		 position: absolute;
-		 margin-top:60px;	
+		margin-top:40px;
+		text-align: center;
+		
+
 		/*background: url(../img/task3_07small.png) no-repeat;*/
 		
 
 	}
 	
 	.wrap{
+		top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
 		position: relative;
 		height:100%;
 		width:100%;
 	
 	}
+	.i1{
+		
+		margin-top:50px;
+		width:100%;
+
+	}
 	.s2{
-		display: inline-block;
-		margin-top:330px;
+		
+		
 		float:left;
-		padding-left: 40px;	
+		padding-left:30px;
 	
 	}
 
 	.s3{
-		display: inline-block;
-		margin-top:330px;
+		
+		
 		float:right;
-		padding-right: 50px;
+		padding-right:30px;
 	}
 	
-	.bottom{
-		display: inline-block;
-		position: absolute;
-		
-	}
 	.content{
-		margin-left: 40px;
-		margin-right:40px;
-		 position: absolute;
-		top:150px;
+		
+
+		
 		color:white;
-		font-size:12px;
+		font-size:1em;
 		line-height: 1.5;
 		font:"微软雅黑" bold 1px;
-
+		padding:150px 30px 150px 30px;
 			}
-	
+	.con{
+		
+		position: absolute; 
+		left: 0; 
+		top: 0; 
+		right: 0; 
+		bottom: 0;
+    	margin: auto;
+    	margin-top:5rem;
+
+	}
